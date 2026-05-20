@@ -1,4 +1,4 @@
-**Project:** Scientific Calculator Interpreter  
+# **Project:** Scientific Calculator Interpreter  
 
 ## Overview
 This project is a custom-built interpreter for a scientific calculator. It reads mathematical expressions, parses them using a custom recursive-descent parser, and evaluates the results. The interpreter supports typical arithmetic operations, compound expressions, user-defined variables, and a wide array of mathematical functions. 
@@ -32,7 +32,7 @@ pip install pytest
 
 Calculator can be run in interactive REPL mode, pass a file containing expressions, or pipe input directly into it.
 
-### 1. Interactive REPL Mode
+### Interactive REPL Mode
 
 If no file is provided, the program starts an interactive session. Variables persist across the session.
 
@@ -51,7 +51,7 @@ b = 10
 
 ```
 
-### 2. File Mode
+### File Mode
 
 Evaluate all statements inside a given text file sequentially.
 
@@ -60,7 +60,7 @@ python3 calculator/calculator.py input.txt
 
 ```
 
-### 3. Command Line Arguments
+### Command Line Arguments
 
 * `input_file`: (Optional) Path to the file containing expressions.
 * `--max-var-len N`: (Optional) Enforces a maximum character limit `N` on variable names (triggers a `ConstraintError` if exceeded).
