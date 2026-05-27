@@ -39,7 +39,7 @@ def build_arg_parser():
     ap.add_argument(
         "--max-var-len",
         type=int,
-        default=None,
+        default=50,
         metavar="N",
         help="Maximum variable name length (positive integer).",
     )
